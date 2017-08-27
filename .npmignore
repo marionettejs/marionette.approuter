@@ -1,0 +1,17 @@
+bower_components
+coverage
+gulp
+src
+test
+tmp
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+bower.json
+CONTRIBUTING.md
+gulpfile.babel.js
+ISSUE_TEMPLATE.md
+marionette-logo.png
+PULL_REQUEST_TEMPLATE.md

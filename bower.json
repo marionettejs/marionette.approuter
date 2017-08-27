@@ -1,0 +1,41 @@
+{
+  "name": "marionette.approuter",
+  "description": "Extends the Backbone.Router to make it easier to construct a large number of routes for your app.",
+  "homepage": "https://marionettejs.com/",
+  "main": "./lib/marionette.approuter.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "backbone",
+    "marionette",
+    "router",
+    "plugin"
+  ],
+  "author": {
+    "name": "Derick Bailey",
+    "email": "derickbailey@gmail.com"
+  },
+  "ignore": [
+    "api",
+    "docs",
+    "gulp",
+    "jsdoc",
+    "src",
+    "tasks",
+    "test",
+    ".babelrc",
+    ".editorconfig",
+    ".eslintrc",
+    ".gitignore",
+    ".jscsrc",
+    ".npmignore",
+    ".travis.yml",
+    "CONTRIBUTING.md",
+    "gulpfile.babel.js",
+    "SpecRunner.html",
+    "upgradeGuide.md"
+  ],
+  "dependencies": {
+    "backbone.marionette": "^3.0.0"
+  }
+}
