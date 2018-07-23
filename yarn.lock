@@ -598,9 +598,9 @@ babylon@^6.11.2, babylon@^6.17.2:
   version "6.17.4"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.4.tgz#3e8b7402b88d22c3423e137a1577883b15ff869a"
 
-backbone.marionette@^3.0.0:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/backbone.marionette/-/backbone.marionette-3.4.2.tgz#42b61cd1f760b1148063a0ea6aeb98be5a6252c6"
+"backbone.marionette@^4.0.0, 4.0.0-beta.1":
+  version "4.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/backbone.marionette/-/backbone.marionette-4.0.0-beta.1.tgz#793528fc5c60620200e2440e6dcd04ba16c3aab3"
   dependencies:
     backbone.radio "^2.0.0"
 

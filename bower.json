@@ -36,6 +36,6 @@
     "upgradeGuide.md"
   ],
   "dependencies": {
-    "backbone.marionette": "^3.0.0"
+    "backbone.marionette": "^4.0.0"
   }
 }

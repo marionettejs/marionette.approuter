@@ -19,7 +19,7 @@
 
 import Backbone from 'backbone';
 import _ from 'underscore';
-import Marionette from 'backbone.marionette';
+import Marionette, { MnObject } from 'backbone.marionette';
 
 // API borrowed from Marionette.Object
 const ObjectAPI = [
@@ -101,8 +101,9 @@ const AppRouter = Backbone.Router.extend({
   }
 });
 
-_.extend(AppRouter.prototype, _.pick(Marionette.Object.prototype, ObjectAPI));
+_.extend(AppRouter.prototype, _.pick(MnObject.prototype, ObjectAPI));
 
+// For Backwards compatibility
 Marionette.AppRouter = AppRouter;
 
 export default AppRouter;
