@@ -15,7 +15,7 @@ const srcPath = 'src/';
 const rollupGlobals = {
   'backbone': 'Backbone',
   'underscore': '_',
-  'backbone.marionette': 'Backbone.Marionette'
+  'marionette': 'Marionette'
 };
 
 function makeESModule(bundle) {
@@ -45,7 +45,7 @@ function makeBundle(buildPath) {
 
   return rollup({
     entry: srcPath + pkg.name + '.js',
-    external: ['underscore', 'backbone', 'backbone.marionette'],
+    external: ['underscore', 'backbone', 'marionette'],
     plugins: [
       json(),
       babel({
