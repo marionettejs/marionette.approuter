@@ -1,7 +1,7 @@
 {
   "name": "marionette.approuter",
   "description": "Extends the Backbone.Router to make it easier to construct a large number of routes for your app.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://marionettejs.com/",
   "main": "lib/marionette.approuter.js",
   "module": "lib/marionette.approuter.esm.js",
