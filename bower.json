@@ -3,7 +3,7 @@
   "description": "Extends the Backbone.Router to make it easier to construct a large number of routes for your app.",
   "homepage": "https://marionettejs.com/",
   "main": "./lib/marionette.approuter.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "backbone",
